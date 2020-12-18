@@ -1,0 +1,932 @@
+../models/ddpg.py:34: UserWarning: nn.init.uniform is now deprecated in favor of nn.init.uniform_.
+  init.uniform(self.weight, -math.sqrt(3 / self.in_features), math.sqrt(3 / self.in_features))
+../models/ddpg.py:35: UserWarning: nn.init.uniform is now deprecated in favor of nn.init.uniform_.
+  init.uniform(self.bias, -math.sqrt(3 / self.in_features), math.sqrt(3 / self.in_features))
+../models/ddpg.py:36: UserWarning: nn.init.constant is now deprecated in favor of nn.init.constant_.
+  init.constant(self.sigma_weight, self.sigma_init)
+../models/ddpg.py:37: UserWarning: nn.init.constant is now deprecated in favor of nn.init.constant_.
+  init.constant(self.sigma_bias, self.sigma_init)
+Instance: mysql3 Memory: 8589934592
+Loading model from file: model_params/train_ddpg_1606797225_430
+Finish Initializing Networks
+DDPG Initialzed!
+Load Memory: 430
+abc5
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+<bound method Server._get_state of <environment.mysql.Server object at 0x7ff5f484bcd0>>
+sysbench
+{'innodb_buffer_pool_size': 8589934592, 'innodb_read_io_threads': 12, 'innodb_buffer_pool_instances': 8, 'innodb_purge_threads': 1, 'innodb_write_io_threads': 12, 'table_open_cache': 512}
+abc6
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606872468.txt
+abc7
+[1667.5579999999998, 35.984, 26680.717000000004]
+[Environment Intialize]Tps: 1667.558 Lat:35.984
+------------------- Starting to Test -----------------------
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606872635.txt
+*****************************
+[1659.6699999999996, 35.984, 26555.911]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1667.5579999999998, 35.984, 26680.717000000004]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+-0.00952777271485
+-0.0
+-0.00381110908594
+$$$$$$$$$$$$$$$$$$$$$$
+Better performance changed!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606872802.txt
+*****************************
+[1669.7459999999999, 36.969, 26716.376]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1659.67, 35.984, 1659.67]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+0.00264186035781
+-0.0570149536022
+-0.0331522280182
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606872970.txt
+*****************************
+[1672.475, 35.721000000000004, 26759.802000000003]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1659.67, 35.984, 1659.67]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+0.00595150716061
+0.0147782540958
+0.0112475553217
+$$$$$$$$$$$$$$$$$$$$$$
+Better performance changed!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606873137.txt
+*****************************
+[1667.922, 36.504000000000005, 26685.471]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1672.475, 35.721, 1672.475]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+0
+-0.0297486616537
+-0.0178491969922
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606873304.txt
+*****************************
+[1667.9109999999996, 35.404999999999994, 26686.634000000002]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1672.475, 35.721, 1672.475]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+0
+0.0327268470616
+0.019636108237
+$$$$$$$$$$$$$$$$$$$$$$
+Better performance changed!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606873472.txt
+*****************************
+[1666.4, 36.439, 26662.313000000002]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1667.911, 35.405, 1667.911]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+-0.00139059810572
+-0.0261921339182
+-0.0162715195932
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606873639.txt
+*****************************
+[1667.3600000000001, 35.661, 26676.405]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1667.911, 35.405, 1667.911]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+-0.000237565552456
+0
+-9.50262209824e-05
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606873806.txt
+*****************************
+[1669.05, 35.662, 26705.628000000004]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1667.911, 35.405, 1667.911]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+0.00179146607213
+0
+0.000716586428852
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606873974.txt
+*****************************
+[1665.7419999999997, 36.05200000000001, 26652.438000000002]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1667.911, 35.405, 1667.911]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+-0.00218205506869
+-0.0038521606412
+-0.0031841184122
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606874141.txt
+*****************************
+[1671.2449999999997, 35.276, 26739.317]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1667.911, 35.405, 1667.911]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+0.00443577270571
+0.0398827317107
+0.0257039481087
+$$$$$$$$$$$$$$$$$$$$$$
+Better performance changed!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606874308.txt
+*****************************
+[1667.8169999999998, 36.634, 26684.382]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1671.245, 35.276, 1671.245]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+0
+-0.0378567887212
+-0.0227140732327
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606874475.txt
+*****************************
+[1663.193, 36.247, 26611.911]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1671.245, 35.276, 1671.245]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+-0.00526730806879
+-0.0150748581297
+-0.0111518381053
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606874643.txt
+*****************************
+[1666.282, 35.854, 26660.268]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1671.245, 35.276, 1671.245]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+-0.00153551349358
+0
+-0.000614205397431
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606874810.txt
+*****************************
+[1667.7370000000003, 35.91600000000001, 26685.440000000002]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1671.245, 35.276, 1671.245]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+0
+0
+0.0
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606874977.txt
+*****************************
+[1665.6770000000001, 36.896, 26651.416999999998]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1671.245, 35.276, 1671.245]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+-0.00226478628658
+-0.0536888717819
+-0.0331192375838
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606875145.txt
+*****************************
+[1662.4010000000003, 34.609, 26597.191]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1671.245, 35.276, 1671.245]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+-0.00622743732683
+0.0793555820065
+0.0451223742731
+$$$$$$$$$$$$$$$$$$$$$$
+Better performance changed!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606875312.txt
+*****************************
+[1670.2590000000005, 36.311, 26724.047]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1662.401, 34.609, 1662.401]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+0.00325741610411
+-0.0191551826364
+-0.0101901431402
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606875479.txt
+*****************************
+[1663.3050000000003, 36.374, 26612.371000000003]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1662.401, 34.609, 1662.401]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+-0.00510459942804
+-0.0229052109967
+-0.0157849663692
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606875647.txt
+*****************************
+[1672.479, 36.370000000000005, 26758.817000000003]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1662.401, 34.609, 1662.401]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+0.0059465849632
+-0.0226665396436
+-0.0112212898009
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606875814.txt
+*****************************
+[1671.516, 35.337, 26744.194]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1662.401, 34.609, 1662.401]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+0.0047787541037
+0
+0.00191150164148
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606875981.txt
+*****************************
+[1669.516, 36.5, 26711.292000000005]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1662.401, 34.609, 1662.401]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+0.00235977949129
+-0.0304632890099
+-0.0173340616094
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606876149.txt
+*****************************
+[1665.94, 35.338, 26653.362999999994]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1662.401, 34.609, 1662.401]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+-0.0019373704655
+0
+-0.0007749481862
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606876316.txt
+*****************************
+[1670.1899999999998, 36.766000000000005, 26722.418000000005]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1662.401, 34.609, 1662.401]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+0.00317400510166
+-0.0466743422582
+-0.0267350033142
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606876483.txt
+*****************************
+[1670.5460000000003, 36.778999999999996, 26727.752]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1662.401, 34.609, 1662.401]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+0.00360446827376
+-0.0474755183367
+-0.0270435236925
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606876650.txt
+*****************************
+[1674.1960000000004, 36.048, 26786.659999999996]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1662.401, 34.609, 1662.401]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+0.00803378743701
+-0.00370833273299
+0.000988515335009
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606876818.txt
+*****************************
+[1669.6350000000002, 35.339000000000006, 26714.012]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1662.401, 34.609, 1662.401]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+0.00250346585681
+0
+0.00100138634272
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606876985.txt
+*****************************
+[1672.565, 37.102999999999994, 26759.753000000004]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1662.401, 34.609, 1662.401]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+0.00605097513093
+-0.0677128855756
+-0.038207341293
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606877152.txt
+*****************************
+[1671.297, 35.660000000000004, 26741.93]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1662.401, 34.609, 1662.401]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+0.00451345347173
+0
+0.00180538138869
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606877320.txt
+*****************************
+[1669.816, 35.083, 26717.699000000004]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1662.401, 34.609, 1662.401]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+0.00272207286319
+0
+0.00108882914527
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606877487.txt
+*****************************
+[1668.6889999999999, 37.370999999999995, 26699.369999999995]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1662.401, 34.609, 1662.401]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+0.00136206714226
+-0.0848463129673
+-0.0503629609235
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606877654.txt
+*****************************
+[1667.45, 35.658, 26679.601000000002]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1662.401, 34.609, 1662.401]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+-0.000129141501509
+0
+-5.16566006036e-05
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606877822.txt
+*****************************
+[1672.5489999999998, 36.70100000000001, 26760.222999999998]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1662.401, 34.609, 1662.401]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+0.00603155248871
+-0.0426809346344
+-0.0231959397851
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606877989.txt
+*****************************
+[1667.1200000000001, 34.959999999999994, 26674.034999999996]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1662.401, 34.609, 1662.401]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+-0.000523896648581
+0
+-0.000209558659432
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606878156.txt
+*****************************
+[1668.0580000000002, 36.705, 26688.162]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1662.401, 34.609, 1662.401]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+0.000601810155565
+-0.0429260829314
+-0.0255149256966
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606878324.txt
+*****************************
+[1667.5580000000002, 35.594, 26681.067999999992]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1662.401, 34.609, 1662.401]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+4.45466836581e-16
+0
+1.78186734632e-16
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606878491.txt
+*****************************
+[1667.3800000000003, 35.917, 26678.057]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1662.401, 34.609, 1662.401]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+-0.00021285778365
+0
+-8.51431134598e-05
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606878658.txt
+*****************************
+[1670.657, 36.373000000000005, 26730.143999999993]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1662.401, 34.609, 1662.401]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+0.00373874191887
+-0.0228455358536
+-0.0122118247446
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606878825.txt
+*****************************
+[1668.9549999999995, 36.377, 26702.912]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1662.401, 34.609, 1662.401]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+0.00168281419402
+-0.0230842656467
+-0.0131774337104
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606878993.txt
+*****************************
+[1666.3590000000004, 36.574, 26661.204999999998]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1662.401, 34.609, 1662.401]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+-0.00143512289467
+-0.0349383063384
+-0.0215370329609
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606879160.txt
+*****************************
+[1650.9389999999999, 35.400999999999996, 26415.752999999997]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1662.401, 34.609, 1662.401]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+-0.0201695767104
+0
+-0.00806783068417
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606879327.txt
+*****************************
+[1658.318, 36.31000000000001, 26533.042999999998]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1662.401, 34.609, 1662.401]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+-0.0111400703301
+-0.0190958140373
+-0.0159135165544
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606879495.txt
+*****************************
+[1653.1349999999998, 36.638, 26450.796000000002]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1662.401, 34.609, 1662.401]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+-0.0174699927064
+-0.0388302140636
+-0.0302861255207
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606879662.txt
+*****************************
+[1653.7159999999997, 35.854000000000006, 26458.977000000003]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1662.401, 34.609, 1662.401]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+-0.0167575166201
+0
+-0.00670300664802
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606879829.txt
+*****************************
+[1655.4589999999996, 36.56699999999999, 26488.392000000003]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1662.401, 34.609, 1662.401]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+-0.0146244983647
+-0.0345138464275
+-0.0265581072024
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606879997.txt
+*****************************
+[1657.4000000000003, 35.032000000000004, 26517.831000000006]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1662.401, 34.609, 1662.401]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+-0.0122569533682
+0
+-0.00490278134728
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606880164.txt
+*****************************
+[1648.0679999999998, 36.049, 26368.724]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1662.401, 34.609, 1662.401]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+-0.0237148204832
+-0.00376643219899
+-0.0117457875127
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606880331.txt
+*****************************
+[1655.1060000000002, 36.632, 26482.294]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1662.401, 34.609, 1662.401]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+-0.0150559525915
+-0.0384644947171
+-0.0291010778669
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606880498.txt
+*****************************
+[1653.1850000000002, 36.568, 26450.835000000003]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1662.401, 34.609, 1662.401]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+-0.0174086491511
+-0.0345744688689
+-0.0277081409818
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606880666.txt
+*****************************
+[1657.1659999999997, 35.596000000000004, 26514.336000000003]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1662.401, 34.609, 1662.401]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+-0.0125419419048
+0
+-0.00501677676191
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'sbtest', 'passwd': '123456', 'host': '172.31.52.214', 'user': 'root', 'memory': 8589934592, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+bash /home/ubuntu/AutoTuner/scripts/run_sysbench.sh read 172.31.52.214 3306 123456 150 /home/ubuntu/AutoTuner/train_result/tmp/1606880833.txt
+*****************************
+[1667.0989999999997, 35.91600000000001, 26673.533000000003]
+[1667.5579999999998, 35.984, 26680.717000000004]
+[1662.401, 34.609, 1662.401]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+-0.000549025392665
+0
+-0.000219610157066
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+------------------- Testing Finished -----------------------
+Knobs are saved at: test_knob/eval_ddpg_1606872461.pkl
+Proposal Knob At 15

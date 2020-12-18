@@ -1,0 +1,925 @@
+../models/ddpg.py:34: UserWarning: nn.init.uniform is now deprecated in favor of nn.init.uniform_.
+  init.uniform(self.weight, -math.sqrt(3 / self.in_features), math.sqrt(3 / self.in_features))
+../models/ddpg.py:35: UserWarning: nn.init.uniform is now deprecated in favor of nn.init.uniform_.
+  init.uniform(self.bias, -math.sqrt(3 / self.in_features), math.sqrt(3 / self.in_features))
+../models/ddpg.py:36: UserWarning: nn.init.constant is now deprecated in favor of nn.init.constant_.
+  init.constant(self.sigma_weight, self.sigma_init)
+../models/ddpg.py:37: UserWarning: nn.init.constant is now deprecated in favor of nn.init.constant_.
+  init.constant(self.sigma_bias, self.sigma_init)
+/users/hvenu/AutoTuner_TPCC/scripts/run_tpcc.sh: line 16: 26637 Terminated              ./tpcc_start -h ${1} -d tpcc_test -P ${2} -u root -p ${3} -w 100 -c 600 -r 10 -l 150 -i 5 > ${4}
+/users/hvenu/AutoTuner_TPCC/scripts/run_tpcc.sh: line 16: 27276 Terminated              ./tpcc_start -h ${1} -d tpcc_test -P ${2} -u root -p ${3} -w 100 -c 600 -r 10 -l 150 -i 5 > ${4}
+Instance: mysql4 Memory: 25769803776
+Loading model from file: model_params/train_ddpg_1608063212_5
+Finish Initializing Networks
+DDPG Initialzed!
+abc5
+abc8
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+Abc9
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+abc10
+<bound method Server._get_state of <environment.mysql.Server object at 0x7fb8ccb5b450>>
+tpcc
+{'innodb_buffer_pool_size': 25769803776, 'innodb_read_io_threads': 12, 'innodb_buffer_pool_instances': 8, 'innodb_purge_threads': 1, 'innodb_write_io_threads': 12, 'table_open_cache': 512}
+abc6
+hello1
+hello2
+[26637]
+abc7
+[1093.125, 3240.274375, 1093.125]
+[Environment Intialize]Tps: 1093.125 Lat:3240.274375
+------------------- Starting to Test -----------------------
+abc8
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+[27276]
+*****************************
+[125.33333333333333, 85394.73933333335, 125.33333333333333]
+[1093.125, 3240.274375, 1093.125]
+[1093.125, 3240.274375, 1093.125]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+-4.81615278137
+-18277.7295167
+-10968.5641711
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+Abc9
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456'/users/hvenu/AutoTuner_TPCC/scripts/run_tpcc.sh: line 16: 27916 Terminated              ./tpcc_start -h ${1} -d tpcc_test -P ${2} -u root -p ${3} -w 100 -c 600 -r 10 -l 150 -i 5 > ${4}
+/users/hvenu/AutoTuner_TPCC/scripts/run_tpcc.sh: line 16: 28555 Terminated              ./tpcc_start -h ${1} -d tpcc_test -P ${2} -u root -p ${3} -w 100 -c 600 -r 10 -l 150 -i 5 > ${4}
+, 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+abc10
+hello1
+hello2
+[27916]
+*****************************
+[1111.0, 3239.7936250000002, 1111.0]
+[1093.125, 3240.274375, 1093.125]
+[1202.71428571, 3244.53814286, 1202.71428571]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+0
+0.000297190092747
+0.000178314055648
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+[28555]
+*****************************
+[123.0, 154572.379, 123.0]
+[1093.125, 3240.274375, 1093.125]
+[1202.71428571, 3244.53814286, 1202.71428571]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+-4.86307943336
+-108364.823592
+-65020.8393868
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+Abc9
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+./users/hvenu/AutoTuner_TPCC/scripts/run_tpcc.sh: line 16: 29219 Terminated              ./tpcc_start -h ${1} -d tpcc_test -P ${2} -u root -p ${3} -w 100 -c 600 -r 10 -l 150 -i 5 > ${4}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+abc10
+abc5
+abc8
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+Abc9
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+abc10
+<bound method Server._get_state of <environment.mysql.Server object at 0x7fb8ccb5b450>>
+tpcc
+{'innodb_buffer_pool_size': 25769803776, 'innodb_read_io_threads': 12, 'innodb_buffer_pool_instances': 8, 'innodb_purge_threads': 1, 'innodb_write_io_threads': 12, 'table_open_cache': 512}
+abc6
+hello1
+hello2
+[29219]
+abc7
+abc8
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+Abc9
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '/users/hvenu/AutoTuner_TPCC/scripts/run_tpcc.sh: line 16: 29864 Terminated              ./tpcc_start -h ${1} -d tpcc_test -P ${2} -u root -p ${3} -w 100 -c 600 -r 10 -l 150 -i 5 > ${4}
+/users/hvenu/AutoTuner_TPCC/scripts/run_tpcc.sh: line 16: 30502 Terminated              ./tpcc_start -h ${1} -d tpcc_test -P ${2} -u root -p ${3} -w 100 -c 600 -r 10 -l 150 -i 5 > ${4}
+172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+abc10
+hello1
+hello2
+[29864]
+*****************************
+[1085.375, 3389.445625, 1085.375]
+[1065.125, 3883.92375, 1065.125]
+[1065.125, 3883.92375, 1065.125]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+0.039114929654
+0.305318363784
+0.198836990132
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+[30502]
+*****************************
+[126.0, 141508.168, 126.0]
+[1065.125, 3883.92375, 1065.125]
+[1202.71428571, 3244.53814286, 1202.71428571]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+-4.81543710447
+-57852.6112252
+-34713.49291
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+Abc9
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+.{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+./users/hvenu/AutoTuner_TPCC/scripts/run_tpcc.sh: line 16: 31155 Terminated              ./tpcc_start -h ${1} -d tpcc_test -P ${2} -u root -p ${3} -w 100 -c 600 -r 10 -l 150 -i 5 > ${4}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+abc10
+abc5
+abc8
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+Abc9
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+abc10
+<bound method Server._get_state of <environment.mysql.Server object at 0x7fb8ccb5b450>>
+tpcc
+{'innodb_buffer_pool_size': 25769803776, 'innodb_read_io_threads': 12, 'innodb_buffer_pool_instances': 8, 'innodb_purge_threads': 1, 'innodb_write_io_threads': 12, 'table_open_cache': 512}
+abc6
+hello1
+hello2
+[31155]
+abc7
+abc8
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+Abc9
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '/users/hvenu/AutoTuner_TPCC/scripts/run_tpcc.sh: line 16: 31806 Terminated              ./tpcc_start -h ${1} -d tpcc_test -P ${2} -u root -p ${3} -w 100 -c 600 -r 10 -l 150 -i 5 > ${4}
+/users/hvenu/AutoTuner_TPCC/scripts/run_tpcc.sh: line 16: 32447 Terminated              ./tpcc_start -h ${1} -d tpcc_test -P ${2} -u root -p ${3} -w 100 -c 600 -r 10 -l 150 -i 5 > ${4}
+172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+abc10
+hello1
+hello2
+[31806]
+*****************************
+[1073.0, 3196.2578749999993, 1073.0]
+[965.5555555555555, 4018.6245555555556, 965.5555555555555]
+[965.5555555555555, 4018.6245555555556, 965.5555555555555]
+*****************************
+$$$$$$$$$$$$$$$$$$$$$$
+0.261080500813
+0.543478527375
+0.43051931675
+$$$$$$$$$$$$$$$$$$$$$$
+Performance remained!
+abc8
+{'database': 'tpcc_test', 'passwd': '123456', 'host': '172.17.223.3', 'user': 'root', 'memory': 25769803776, 'port': 3306}
+Abc9
+abc10
+hello1
+hello2
+[32447]
